@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.safeguard.android.app-debug-37:/layout_activity_main.xml.flat",
+        "source": "com.safeguard.android.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.safeguard.android.app-debug-37:/xml_device_admin.xml.flat",
+        "source": "com.safeguard.android.app-main-39:/xml/device_admin.xml"
+    }
+]

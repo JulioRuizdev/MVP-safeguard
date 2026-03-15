@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f172a">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🛡️"
+            android:textSize="64sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SafeGuard Peru"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#60a5fa"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Protección Anti-Robo"
+            android:textSize="14sp"
+            android:textColor="#94a3b8"
+            android:layout_marginBottom="32dp" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verificando estado..."
+            android:textColor="#cbd5e1"
+            android:textSize="13sp"
+            android:background="#1e293b"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- SECCIÓN LOGIN -->
+        <LinearLayout
+            android:id="@+id/layout_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correo electrónico"
+                android:inputType="textEmailAddress"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#64748b"
+                android:background="#1e293b"
+                android:padding="14dp"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#64748b"
+                android:background="#1e293b"
+                android:padding="14dp"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingresar"
+                android:backgroundTint="#2563eb"
+                android:textColor="#FFFFFF"
+                android:padding="14dp" />
+
+        </LinearLayout>
+
+        <!-- SECCIÓN PROTEGER (visible solo tras login) -->
+        <LinearLayout
+            android:id="@+id/layout_protect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btn_activate_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activar Proteccion y Registrar"
+                android:backgroundTint="#059669"
+                android:textColor="#FFFFFF"
+                android:padding="16dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Una vez configurado, puedes cerrar esta app. SafeGuard seguira protegiendo tu celular."
+                android:textColor="#64748b"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+id btn_activate_register
+id btn_login
+id et_email
+id et_password
+id layout_login
+id layout_protect
+id tv_status
+layout activity_main
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
+xml device_admin

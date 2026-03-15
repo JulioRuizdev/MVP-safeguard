@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">818437254412</string>
+    <string name="google_api_key" translatable="false">AIzaSyA8ax_c3dGkDkVaACmgON-OZw1gMQ0mQ-4</string>
+    <string name="google_app_id" translatable="false">1:818437254412:android:7b3845d705b7962474ad29</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA8ax_c3dGkDkVaACmgON-OZw1gMQ0mQ-4</string>
+    <string name="google_storage_bucket" translatable="false">safeguard-peru.firebasestorage.app</string>
+    <string name="project_id" translatable="false">safeguard-peru</string>
+</resources>

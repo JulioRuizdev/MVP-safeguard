@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "818437254412",
+    "project_id": "safeguard-peru",
+    "storage_bucket": "safeguard-peru.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818437254412:android:7b3845d705b7962474ad29",
+        "android_client_info": {
+          "package_name": "com.safeguard.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8ax_c3dGkDkVaACmgON-OZw1gMQ0mQ-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
